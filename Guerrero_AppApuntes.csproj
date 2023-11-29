@@ -56,7 +56,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="PaginaAcerca.xaml">
+	  <MauiXaml Update="Views\AllNotesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NotePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PaginaAcerca.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
